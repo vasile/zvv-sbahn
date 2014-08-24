@@ -1,0 +1,226 @@
+{
+  "service_lines": [
+    {
+      "id": "s2",
+      "name": "S 2",
+      "color": "#FFFFFF",
+      "bg_color": "#7DC242",
+      "stations": "Zürich Flughafen - Zürich HB - Pfäffikon SZ - Ziegelbrücke"
+    },
+    {
+      "id": "s3",
+      "name": "S 3",
+      "color": "#FFFFFF",
+      "bg_color": "#587AC2",
+      "stations": "Aarau - Lenzburg - Dietikon - Zürich HB - Effretikon - Wetzikon"
+    },
+    {
+      "id": "s4",
+      "name": "S 4",
+      "color": "#FFFFFF",
+      "bg_color": "#EE7267",
+      "stations": "Zürich HB - Adliswil - Langnau-Gattikon - Sihlwald"
+    },
+    {
+      "id": "s5",
+      "name": "S 5",
+      "color": "#FFFFFF",
+      "bg_color": "#64A8CA",
+      "stations": "Niederweningen - Rafz - Oberglatt - Zürich HB - Uster - Wetzikon - Rapperswil - Pfäffikon SZ"
+    },
+    {
+      "id": "s6",
+      "name": "S 6",
+      "color": "#FFFFFF",
+      "bg_color": "#734B89",
+      "stations": "Baden AG - Regensdorf-Watt - Zürich HB - Uetikon"
+    },
+    {
+      "id": "s7",
+      "name": "S 7",
+      "color": "#000000",
+      "bg_color": "#FBB402",
+      "stations": "Winterthur HB - Kloten - Zürich HB - Meilen - Rapperswil"
+    },
+    {
+      "id": "s8",
+      "name": "S 8",
+      "color": "#FFFFFF",
+      "bg_color": "#62198F",
+      "stations": "Weinfelden - Frauenfeld - Winterthur - Wallisellen - Zürich HB - Pfäffikon SZ"
+    },
+    {
+      "id": "s9",
+      "name": "S 9",
+      "color": "#FFFFFF",
+      "bg_color": "#069A5D",
+      "stations": "Zug - Affoltern am Albis - Zürich HB - Uster"
+    },
+    {
+      "id": "s10",
+      "name": "S 10",
+      "color": "#000000",
+      "bg_color": "#FBCF02",
+      "stations": "Zürich HB - Uetliberg"
+    },
+    {
+      "id": "s12",
+      "name": "S 12",
+      "color": "#FFFFFF",
+      "bg_color": "#EF0503",
+      "stations": "Brugg - Zürich HB - Winterthur - Seuzach - Winterthur Seen"
+    },
+    {
+      "id": "s13",
+      "name": "S 13",
+      "color": "#FFFFFF",
+      "bg_color": "#BA8C53",
+      "stations": "Wädenswil - Einsiedeln"
+    },
+    {
+      "id": "s14",
+      "name": "S 14",
+      "color": "#FFFFFF",
+      "bg_color": "#AC6547",
+      "stations": "Zürich HB - Oerlikon - Uster - Wetzikon - Hinwil"
+    },
+    {
+      "id": "s15",
+      "name": "S 15",
+      "color": "#FFFFFF",
+      "bg_color": "#BB9977",
+      "stations": "Affoltern am Albis - Zürich HB - Uster - Rapperswil"
+    },
+    {
+      "id": "s16",
+      "name": "S 16",
+      "color": "#FFFFFF",
+      "bg_color": "#4FAD82",
+      "stations": "Thayngen - Schaffhausen - Winterthur - Zürich Airport - Zürich HB - Herrliberg - Feldmeilen - Meilen"
+    },
+    {
+      "id": "s17",
+      "name": "S 17",
+      "color": "#FFFFFF",
+      "bg_color": "#0F89AB",
+      "stations": "Dietikon - Bremgarten AG - Wohlen AG"
+    },
+    {
+      "id": "s18",
+      "name": "S 18",
+      "color": "#FFFFFF",
+      "bg_color": "#EE1C23",
+      "stations": "Zürich Stadelhofen - Forch - Esslingen"
+    },
+    {
+      "id": "s21",
+      "name": "S 21",
+      "color": "#FFFFFF",
+      "bg_color": "#BA8C53",
+      "stations": "Zürich HB - Thalwil - Zug"
+    },
+    {
+      "id": "s22",
+      "name": "S 22",
+      "color": "#FFFFFF",
+      "bg_color": "#B4D561",
+      "stations": "Bülach - Schaffhausen - Singen (Hohentwiel)"
+    },
+    {
+      "id": "s24",
+      "name": "S 24",
+      "color": "#FFFFFF",
+      "bg_color": "#BA8C53",
+      "stations": "Zürich Oerlikon - Zürich HB - Thalwil - Zug"
+    },
+    {
+      "id": "s25",
+      "name": "S 25",
+      "color": "#FFFFFF",
+      "bg_color": "#0088AD",
+      "stations": "Zürich HB - Pfäffikon SZ - Ziegelbrücke - Linthal"
+    },
+    {
+      "id": "s26",
+      "name": "S 26",
+      "color": "#FFFFFF",
+      "bg_color": "#0F89AB",
+      "stations": "Winterthur - Bauma - Rüti ZH"
+    },
+    {
+      "id": "s29",
+      "name": "S 29",
+      "color": "#FFFFFF",
+      "bg_color": "#069A5D",
+      "stations": "Winterthur - Stein am Rhein"
+    },
+    {
+      "id": "s30",
+      "name": "S 30",
+      "color": "#FFFFFF",
+      "bg_color": "#0B5A9C",
+      "stations": "Winterthur - Frauenfeld - Weinfelden - Romanshorn - Rorschach"
+    },
+    {
+      "id": "s33",
+      "name": "S 33",
+      "color": "#FFFFFF",
+      "bg_color": "#7C93CE",
+      "stations": "Winterthur - Andelfingen - Schaffhausen"
+    },
+    {
+      "id": "s35",
+      "name": "S 35",
+      "color": "#FFFFFF",
+      "bg_color": "#ACBCE7",
+      "stations": "Winterthur - Wil SG"
+    },
+    {
+      "id": "s40",
+      "name": "S 40",
+      "color": "#FFFFFF",
+      "bg_color": "#B793C9",
+      "stations": "Rapperswil - Pfäffikon SZ - Samstagern - Einsiedeln"
+    },
+    {
+      "id": "s41",
+      "name": "S 41",
+      "color": "#FFFFFF",
+      "bg_color": "#F2B49B",
+      "stations": "Winterthur - Bülach - Bad Zurzach - Waldshut"
+    },
+    {
+      "id": "s43",
+      "name": "S 43",
+      "color": "#FFFFFF",
+      "bg_color": "#0F89AB",
+      "stations": "Wald - Rüti ZH"
+    },
+    {
+      "id": "s55",
+      "name": "S 55",
+      "color": "#FFFFFF",
+      "bg_color": "#996633",
+      "stations": "Niederweningen - Oberglatt"
+    }
+  ],
+  "events": [
+    {
+      "id": "1990",
+      "title": "1990",
+      "description": "Initial Network",
+      "link": "https://twitter.com/zvv/status/502330613945610241"
+     },
+    {
+      "id": "2013",
+      "title": "2013",
+      "description": "Network Expansion"
+    },
+    {
+      "id": "2014",
+      "title": "2014",
+      "description": "Weinberg Tunnel",
+      "link": "http://en.wikipedia.org/wiki/Weinberg_Tunnel"
+    }
+  ]
+}

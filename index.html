@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#">
+    <head>
+        <title>Zürich S-Bahn Network Expansion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
+        <meta property="og:title" content="Zürich S-Bahn Network Expansion"/>
+        <meta property="og:type" content="non_profit"/>
+        <meta property="og:url" content="http://maps.vasile.ch/zvv-sbahn/"/>
+        <meta property="og:image" content="http://maps.vasile.ch/zvv-sbahn/static/images/embed_social_300px.jpg"/>
+        
+        <!-- http://www.iconarchive.com/show/cold-fusion-hd-icons-by-chrisbanks2/train-icon.html -->
+        <link href="static/images/favicon.ico" rel="shortcut icon" />
+        
+        <!-- Boostrap -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />        
+        <link rel="stylesheet" href="static/jquery-ui-extensions/jquery.ui.labeledslider.css">
+
+        <link href="static/page.css?v=[REVISION]" rel="stylesheet" />
+    </head>
+
+    <body role="document">
+        <div id="github_badge">
+            <a href="https://github.com/vasile/zvv-sbahn" target="_blank"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+        </div>
+        
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="http://www.vasile.ch">maps.vasile.ch</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="https://twitter.com/zvv/status/502348371974438912" target="_blank">Data source (ZVV)</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/forms/d/1ZWCqfF8OvRBlMPHMc5FbL6T3zYhQ-p18B8IIwMt1sRs/viewform" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2 class="text-center">Zürich S-Bahn Network Expansion</h2>
+            
+            <div id="social">
+                <div>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Zürich S-Bahn Network Expansion" data-lang="en">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+                <div>
+                    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fmaps.vasile.ch%2Fzvv-sbahn%2F&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+                </div>
+                <div>
+                    <g:plusone size="medium"></g:plusone>
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                </div>
+            </div>
+            
+            <div id="map_canvas_wrapper" class="row">
+                <div class="col-md-9">
+                    <div id="map_canvas">
+                        <div id="map_area_info" class="ol-popup hide">
+                            <a href="#" class="ol-popup-closer"></a>
+                            <div class="ol-popup-content"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="map_panel" class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h4 id="event_title"></h4>
+                            <div id="timeline_wrapper" class="row">
+                                <div class="col-md-11">
+                                    <div id="timeline"></div>
+                                </div>
+                            </div>
+                            <div id="service_lines"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+                <div>This application shows the Zürich S-Bahn Network evolution from 1990 to present day. The data is gathered from <a href="http://www.zvv.ch/en/routes-and-zones/zvv-network-plan.html" target="_blank">ZVV</a> and <a href="http://en.wikipedia.org/wiki/Z%C3%BCrich_S-Bahn#Operation" target="_blank">Wikipedia</a> datasources.<br/>Created by <a href="http://www.vasile.ch">Vasile Coțovanu</a>, the project it's powered by <a href="http://api3.geo.admin.ch/" target="_blank">GeoAdmin API</a>, <a href="http://getbootstrap.com/" target="_blank">Boostrap 3.0</a> and open-sourced on <a href="https://github.com/vasile/zvv-sbahn" target="_blank">Github</a>.</div>
+            </footer>
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        
+        <script src="http://api3.geo.admin.ch/loader.js?lang=en&amp;mode=debug"></script>
+        
+        <script src="static/jquery-ui-extensions/jquery.ui.labeledslider.js"></script>
+        <script src="static/jquery-ui-extensions/jquery.ui.touch-punch.min.js"></script>
+        
+        <script src="static/page.js?v=[REVISION]"></script>
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-1022230-11']);
+            _gaq.push(['_setCustomVar', 1, 'project', 'zvv-sbahn']);
+            _gaq.push(['_setDomainName', 'maps.vasile.ch']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+</html>

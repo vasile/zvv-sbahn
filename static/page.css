@@ -1,0 +1,150 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+#map_canvas_wrapper {
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+#map_canvas {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #0087cc;
+    height: 550px;
+}
+
+#map_panel .panel {
+    border-color: #0087cc;
+}
+
+#github_badge {
+    z-index: 2000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#timeline_wrapper {
+    margin: 10px 10px 0px 10px;
+    font-size: 12px;
+}
+
+#social {
+    height: 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#social > div {
+    width: 90px;
+    overflow: hidden;
+    float: left;
+}
+
+#service_lines {
+    margin-top: 10px;
+}
+
+#service_lines .label {
+    font-size: 17px;
+    line-height: 34px;
+}
+
+#event_title {
+    margin-bottom: 30px;
+}
+
+/* START OL Popup from http://ol3js.org/en/master/examples/popup.html */
+#map_area_info {
+    width: 110px;
+}
+
+img.geometry {
+    width: 80px;
+    height: 80px;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+}
+.ol-popup:after, .ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+.ol-popup-closer:after {
+  content: "✖";
+}
+/* END */
+
+/* START Small screens */
+body.mobile {
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+body.mobile #github_badge, body.mobile .navbar, body.mobile #social, body.mobile h2 {
+    display: none;
+}
+
+body.mobile h2 {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+body.mobile h4 {
+    font-size: 0.8em;
+    line-height: 1em;
+    margin: 2px 0px;
+}
+
+body.mobile #timeline_wrapper {
+    font-size: 8px;
+}
+
+body.mobile #map_canvas {
+    height: 300px;
+}
+
+body.mobile #service_lines .label {
+    font-size: 12px;
+    line-height: 24px;
+}
+/* END */
