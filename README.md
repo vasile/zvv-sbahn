@@ -6,9 +6,9 @@ This application shows the [Zürich S-Bahn Network](http://www.zvv.ch/en/routes-
 
 ![Screenshot](https://api.monosnap.com/image/download?id=6YsUkm2Mt0RNIpcwd8FzgknvL5YKtS)
 
-## Add more events
+## Customize / add your data
 
-TBA
+Check [data/ JSON files](https://github.com/vasile/zvv-sbahn/tree/master/data)
 
 ## Stay in touch
 
