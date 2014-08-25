@@ -37,25 +37,6 @@ $(document).ready(function() {
     });
     layers.push(vector_layer);
     
-    var stations_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
-        style: new ol.style.Style({
-            image: new ol.style.Circle({
-                radius: 3,
-                fill: new ol.style.Fill({
-                    color: '#FF0000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#CACACA',
-                    width: 1
-                })
-            }),
-            zIndex: Infinity
-        })
-    });
-    stations_layer.set('id', 'stations');
-    layers.push(stations_layer);
-    
     function service_highlight_vector_layer_style(feature, resolution) {
         var styles = [];
         $.each(feature.get('feature_service_lines'), function(k, row){
@@ -76,6 +57,25 @@ $(document).ready(function() {
         style: service_highlight_vector_layer_style
     });
     layers.push(service_highlight_vector_layer);
+    
+    var stations_layer = new ol.layer.Vector({
+        source: new ol.source.GeoJSON(),
+        style: new ol.style.Style({
+            image: new ol.style.Circle({
+                radius: 3,
+                fill: new ol.style.Fill({
+                    color: '#FF0000'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#CACACA',
+                    width: 1
+                })
+            }),
+            zIndex: Infinity
+        })
+    });
+    stations_layer.set('id', 'stations');
+    layers.push(stations_layer);
     
     var area_info = new ol.Overlay({
         element: $('#map_area_info')[0]
