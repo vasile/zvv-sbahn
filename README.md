@@ -10,8 +10,6 @@ This application shows the [Zürich S-Bahn Network](http://www.zvv.ch/en/routes-
 
 Check [data/ JSON files](https://github.com/vasile/zvv-sbahn/tree/master/data)
 
-## Stay in touch
+## Feedback
 
 Contact me via [this form](https://docs.google.com/forms/d/1ZWCqfF8OvRBlMPHMc5FbL6T3zYhQ-p18B8IIwMt1sRs/) or [Twitter](twitter.com/vasile23).
-
-## Have fun !
