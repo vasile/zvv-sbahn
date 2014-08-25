@@ -14,8 +14,4 @@ Check [data/ JSON files](https://github.com/vasile/zvv-sbahn/tree/master/data)
 
 [contact form](https://docs.google.com/forms/d/1ZWCqfF8OvRBlMPHMc5FbL6T3zYhQ-p18B8IIwMt1sRs/) or [Twitter](twitter.com/vasile23).
 
-## Contributors
-
-* [John Pope](https://github.com/llamapope) - added [bramus](https://github.com/bramus/google-maps-polygon-moveto) google.maps.Polygon.moveTo support
-
 ## Have fun !
