@@ -64,6 +64,13 @@
       "stations": "Zürich HB - Uetliberg"
     },
     {
+      "id": "s11",
+      "name": "S 11",
+      "color": "#FFFFFF",
+      "bg_color": "#B8A1CE",
+      "stations": "Zürich Hardbrücke - Winterthur"
+    },
+    {
       "id": "s12",
       "name": "S 12",
       "color": "#FFFFFF",
@@ -221,6 +228,12 @@
       "title": "2014",
       "description": "Weinberg Tunnel",
       "link": "http://en.wikipedia.org/wiki/Weinberg_Tunnel"
+    },
+    {
+      "id": "2015",
+      "title": "2015",
+      "description": "Kohlendreieck Bridge",
+      "link": "https://de.wikipedia.org/wiki/Durchmesserlinie_Altstetten%E2%80%93Z%C3%BCrich_HB%E2%80%93Oerlikon"
     }
   ]
 }
