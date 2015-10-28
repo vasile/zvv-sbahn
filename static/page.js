@@ -46,7 +46,7 @@ $(document).ready(function() {
                 var style = new ol.style.Style({
                     stroke: new ol.style.Stroke({
                         color: 'red',
-                        width: 2
+                        width: 3
                     })
                 });
                 styles.push(style);
