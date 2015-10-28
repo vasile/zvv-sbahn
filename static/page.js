@@ -148,13 +148,24 @@ $(document).ready(function() {
                         vector_layer.getSource().addFeature(feature);
                         service_highlight_vector_layer.getSource().addFeature(feature);
                     }
-                    
-                    if (geojson_feature.geometry.type == 'Point') {
-                        var point = ol.proj.transform(geojson_feature.geometry.coordinates, 'EPSG:4326', 'EPSG:21781');
-                        feature = new ol.Feature(new ol.geom.Point(point));
-                        feature.set('name', geojson_feature.properties.name);
-                        stations_layer.getSource().addFeature(feature);
+                });
+            },
+            async: false
+        });
+
+        $.ajax({
+            dataType: 'json',
+            url: 'data/stations.geojson',
+            success: function(data) {
+                $.each(data.features, function(k, geojson_feature){
+                    if (geojson_feature.geometry.type != 'Point') {
+                        return;
                     }
+
+                    var point = ol.proj.transform(geojson_feature.geometry.coordinates, 'EPSG:4326', 'EPSG:21781');
+                    var feature = new ol.Feature(new ol.geom.Point(point));
+                    feature.set('name', geojson_feature.properties.name);
+                    stations_layer.getSource().addFeature(feature);
                 });
             },
             async: false
