@@ -32,7 +32,9 @@ $(document).ready(function() {
         return styles;
     }
     var vector_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
         style: vector_layer_style
     });
     layers.push(vector_layer);
@@ -53,13 +55,17 @@ $(document).ready(function() {
         return styles;
     }
     var service_highlight_vector_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
         style: service_highlight_vector_layer_style
     });
     layers.push(service_highlight_vector_layer);
     
     var stations_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
         style: new ol.style.Style({
             image: new ol.style.Circle({
                 radius: 3,
