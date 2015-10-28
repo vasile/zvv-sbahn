@@ -181,11 +181,17 @@ $(document).ready(function() {
             if (vector_layer.getOpacity() > 0.4) {
                 vector_layer.setOpacity(0.4);
             }
+            if (base_layer.getOpacity() > 0.25) {
+                base_layer.setOpacity(0.2);
+            }
         });
 
         $('#map_panel').mouseout(function(ev){
             if (vector_layer.getOpacity() < 1) {
                 vector_layer.setOpacity(1);
+            }
+            if (base_layer.getOpacity() < 0.25) {
+                base_layer.setOpacity(0.4);
             }
             
             if (user_selected.service_line_id !== null) {
