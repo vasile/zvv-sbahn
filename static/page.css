@@ -120,19 +120,12 @@ body.mobile {
     padding-top: 5px;
 }
 
-body.mobile #github_badge, body.mobile .navbar, body.mobile #social, body.mobile h2 {
+body.mobile #github_badge, body.mobile .navbar, body.mobile #social, body.mobile h2, body.mobile .info {
     display: none;
 }
 
-body.mobile h2 {
-    font-size: 1.2em;
-    line-height: 1em;
-}
-
-body.mobile h4 {
-    font-size: 0.8em;
-    line-height: 1em;
-    margin: 2px 0px;
+body.mobile #service_lines {
+  margin: 5px;
 }
 
 body.mobile #timeline_wrapper {

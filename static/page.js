@@ -93,10 +93,11 @@ $(document).ready(function() {
         layers: layers,
         overlays: [area_info]
     });
+    var start_zoom = ua_is_mobile ? 12 : 13;
     var map_view = new ol.View2D({
         minZoom: 9,
         maxZoom: 15,
-        zoom: 13,
+        zoom: start_zoom,
         center: ol.proj.transform([8.55, 47.39], 'EPSG:4326', 'EPSG:21781')
     });
     map.setView(map_view);
