@@ -95,9 +95,9 @@ $(document).ready(function() {
     });
     var map_view = new ol.View2D({
         minZoom: 9,
-        maxZoom: 14,
-        zoom: 10,
-        center: ol.proj.transform([8.71, 47.47], 'EPSG:4326', 'EPSG:21781')
+        maxZoom: 15,
+        zoom: 13,
+        center: ol.proj.transform([8.55, 47.39], 'EPSG:4326', 'EPSG:21781')
     });
     map.setView(map_view);
     
