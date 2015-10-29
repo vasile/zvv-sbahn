@@ -234,15 +234,17 @@ $(document).ready(function() {
             });
         }
         
+        var default_value = data.events.length - 1;
         $('#timeline').labeledslider({
-            max: data.events.length - 1,
+            max: default_value,
             tickLabels: event_labels,
             slide: function(event, ui) {
                 event_update(ui.value);
-            }
+            },
+            value: default_value
         });
         $("#timeline .ui-slider-handle").css('background', '#0087cc');
-        event_update(0);
+        event_update(default_value);
     });
     
     map.on('singleclick', function(ev) {
