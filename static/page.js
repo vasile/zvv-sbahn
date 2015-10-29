@@ -197,7 +197,7 @@ $(document).ready(function() {
             }
         });
 
-        $('#map_panel').mouseout(function(ev){
+        $('#service_lines').mouseout(function(ev){
             if (vector_layer.getOpacity() < 1) {
                 vector_layer.setOpacity(1);
             }
