@@ -188,7 +188,49 @@ $(document).ready(function() {
             user_selected.service_line_id = service_line_id;
             service_highlight_vector_layer.setStyle(service_highlight_vector_layer_style);
         });
-        
+
+        $('#service_lines .service_line').click(function(ev){
+            var slider_value = parseInt($('#timeline').attr('slider-value'), 10);
+            var selected_year = data.events[slider_value].id;
+
+            var x_min = y_min = x_max = y_max = null;
+
+            var service_line_id = $(this).attr('data-id');
+            $.each(vector_layer.getSource().getFeatures(), function(k, f){
+                var keep_feature = false;
+                $.each(f.get('feature_service_lines'), function(k, line_data){
+                    if ((line_data.event_id === selected_year) && (line_data.service_line_id === service_line_id)) {
+                        keep_feature = true;
+                    }
+                });
+                if (keep_feature) {
+                    var f_extent = f.getGeometry().getExtent()
+                    if (x_min === null) {
+                        x_min = f_extent[0];
+                        y_min = f_extent[1];
+                        x_max = f_extent[2];
+                        y_max = f_extent[3];
+                    }
+
+                    if (f_extent[0] < x_min) {
+                        x_min = f_extent[0];
+                    }
+                    if (f_extent[1] < y_min) {
+                        y_min = f_extent[1];
+                    }
+                    if (f_extent[2] > x_max) {
+                        x_max = f_extent[2];
+                    }
+                    if (f_extent[3] > y_max) {
+                        y_max = f_extent[3];
+                    }
+                }
+            });
+
+            var new_extent = [x_min, y_min, x_max, y_max];
+            map.getView().fitExtent(new_extent, map.getSize());
+        });
+
         $('#service_lines').mouseover(function(ev){
             if (vector_layer.getOpacity() > 0.4) {
                 vector_layer.setOpacity(0.4);
@@ -218,6 +260,7 @@ $(document).ready(function() {
         });
         
         function event_update(k) {
+            $('#timeline').attr('slider-value', k);
             var event_data = data.events[k];
             $('#event_title').text(event_data.title + ': ' + event_data.description);
             
