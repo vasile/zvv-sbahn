@@ -1,0 +1,3684 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Märstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.063439,
+          47.582226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hinwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.840006,
+          47.299706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wildpark-Höfli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.535768,
+          47.296452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urdorf Weihermatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43007,
+          47.381243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otelfingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.387478,
+          47.454783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Triemli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.495314,
+          47.364906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niederweningen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.369608,
+          47.511252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Embrach-Rorbas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.587959,
+          47.520669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.716002,
+          47.35207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuhaus bei Hinteregg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.674127,
+          47.312909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aarau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.05173,
+          47.391335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Wülflingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.680407,
+          47.5066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biberbrugg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.72265,
+          47.158164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sihlbrugg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.577035,
+          47.238149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Etzwilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.820421,
+          47.661779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uitikon Waldegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.466022,
+          47.365962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horgen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.596326,
+          47.261651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stäfa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.722356,
+          47.240489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Koblenz Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.240098,
+          47.60942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Seen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.766925,
+          47.487569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baar Neufeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517691,
+          47.188435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richterswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.707893,
+          47.208273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erdmannlistein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.310171,
+          47.347481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Saalsporthalle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521962,
+          47.357625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wädenswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.675553,
+          47.22892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rümikon AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.37466,
+          47.565241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mägenwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.235274,
+          47.414682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otelfingen Golfpark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.401819,
+          47.455807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dielsdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.459537,
+          47.482197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Affoltern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5102,
+          47.420493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Binz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.518044,
+          47.36287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fehraltorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75,
+          47.385143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Räterschen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.794525,
+          47.498934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Flughafen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561838,
+          47.450181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grüenfeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.686946,
+          47.198211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fischenthal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.923306,
+          47.333019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frauenfeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.896732,
+          47.558419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Männedorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.692676,
+          47.253428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stammheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.788401,
+          47.635171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winkel am Zürichsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598937,
+          47.297283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sihlwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.557737,
+          47.268365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bibenlos-Sonnenhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.350299,
+          47.353719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schöfflisdorf-Oberweningen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.411726,
+          47.497891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zug Schutzengel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.506831,
+          47.173873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.913395,
+          47.272261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tann-Dürnten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.852071,
+          47.268433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Henggart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685511,
+          47.563456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Widen Heinrüti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.353452,
+          47.361574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.690356,
+          47.300456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Küsnacht Goldbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.576014,
+          47.326683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turbenthal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.843745,
+          47.437196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Effretikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.686418,
+          47.42558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinmaur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.446549,
+          47.490019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frauenfeld Marktplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.898873,
+          47.554155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hettlingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.694757,
+          47.54534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reutlingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.752367,
+          47.52949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lachen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.852558,
+          47.189999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kemptthal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.705797,
+          47.452894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gibswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.915517,
+          47.313598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pfäffikon SZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.78123,
+          47.203169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luchsingen-Hätzingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.038516,
+          46.964874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linthal Braunwaldbahn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.002294,
+          46.928217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Müllheim-Wigoltingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.013587,
+          47.588203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Küsnacht ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.580625,
+          47.319594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guntershausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.917093,
+          47.474036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riedmatt SZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.712053,
+          47.196704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.834349,
+          47.230047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.724043,
+          47.501114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schloss Laufen am Rheinfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.614287,
+          47.676569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Kreuzplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.554099,
+          47.364855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmensdorf ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.437399,
+          47.357523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unterterzen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.255238,
+          47.114042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Illnau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.722707,
+          47.408442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zug Chollermüli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483792,
+          47.181029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaiserstuhl AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.418887,
+          47.566737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.848769,
+          47.417641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thayngen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.704433,
+          47.745661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knonau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.466864,
+          47.220132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Manegg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519718,
+          47.338342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aadorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.900967,
+          47.488804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wohlen AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.268833,
+          47.34882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43493,
+          47.391051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hüntwangen-Wil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.512724,
+          47.581124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Wallrüti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76087,
+          47.516782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Enge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.530693,
+          47.363794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rudolfstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.381905,
+          47.370052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niederhasli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.488598,
+          47.478321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Seebach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544056,
+          47.418536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hurden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.800718,
+          47.214239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uerikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.753135,
+          47.235716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neue Forch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.63805,
+          47.325524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sihlau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525549,
+          47.303044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niederweningen Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.38167,
+          47.505704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5163,
+          47.177689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wettingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.313693,
+          47.460563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dachsen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.613937,
+          47.666796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dietlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.619319,
+          47.420096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Felben-Wellhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.942608,
+          47.576858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Rehalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.582595,
+          47.351077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scheuren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.660035,
+          47.322505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glattfelden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.523801,
+          47.548794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schübelbach-Buttikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.938953,
+          47.17658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Würenlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.355467,
+          47.445713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thalheim-Altikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.757542,
+          47.569414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ringlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.476946,
+          47.360557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hedingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445782,
+          47.298811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.85404,
+          47.394584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Leimbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519572,
+          47.334368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ziegelbrücke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.06091,
+          47.136248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berikon-Widen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.366379,
+          47.361993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bremgarten West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.337601,
+          47.345598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Wollishofen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533664,
+          47.347907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mellikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.352351,
+          47.568522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mühlehorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.172544,
+          47.117938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weesen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.094873,
+          47.129862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schottikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.810897,
+          47.500171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zollikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.569379,
+          47.337605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Stadelhofen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54894,
+          47.366454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Einsiedeln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.744919,
+          47.129261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niederglatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50313,
+          47.487129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rupperswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.12514,
+          47.403065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.214895,
+          47.11326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Balgrist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.574983,
+          47.354572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bubikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8233,
+          47.270509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zollikerberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.603677,
+          47.346035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bonstetten-Wettswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.467954,
+          47.325439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.625096,
+          47.682935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langwies ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.694772,
+          47.295928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maiacher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.631172,
+          47.327952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Samstagern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685119,
+          47.191754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuhausen Bad Bf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.612473,
+          47.682461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glarus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.071887,
+          47.038845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mellingen Heitersberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.275767,
+          47.428022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bassersdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62543,
+          47.438581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regensdorf-Watt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.471699,
+          47.436881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bäch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.726565,
+          47.200806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schaffhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.632533,
+          47.698482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zufikon Hammergut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.354718,
+          47.355897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinhausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.478491,
+          47.194085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marthalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.653676,
+          47.634591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stettbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.596572,
+          47.397928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schindellegi-Feusisberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.709298,
+          47.176305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Hegibachplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.560685,
+          47.361792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bülach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53667,
+          47.523478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.648763,
+          47.325385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ossingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.724096,
+          47.614746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sennhof-Kyburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76046,
+          47.465065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Hegi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.775919,
+          47.502739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eschlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.959174,
+          47.461373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.932264,
+          47.353801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rämismühle-Zell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.81947,
+          47.44132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hüttlingen-Mettendorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.974541,
+          47.582439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waltikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.616818,
+          47.336996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.797171,
+          47.444553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waldshut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.213217,
+          47.623813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lottstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.566407,
+          47.625731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buchs-Dällikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.435354,
+          47.453454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zweidlen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.468431,
+          47.570832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dinhard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.752799,
+          47.552836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Näfels-Mollis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.070157,
+          47.09878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bremgarten Obertor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.343428,
+          47.35049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Herrliberg-Feldmeilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.613215,
+          47.28154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oberglatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.510525,
+          47.470205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seuzach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.739092,
+          47.535685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Grüze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.749378,
+          47.499301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nidfurn-Haslen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.058365,
+          46.985478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rudolfstetten Hofacker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.377257,
+          47.364738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lenzburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.169773,
+          47.391459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pfungen-Neftenbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.646792,
+          47.515834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reichenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.982882,
+          47.172679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Friesenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.507612,
+          47.36482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ennenda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.077618,
+          47.0326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zufikon Belvédère"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.359477,
+          47.357838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Herblingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.664705,
+          47.717332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mitlödi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.081071,
+          47.010005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.644529,
+          47.269747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bietingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.738998,
+          47.744047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.307442,
+          47.476558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hinteregg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.684986,
+          47.305533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linthal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.997624,
+          46.92524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andelfingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.67726,
+          47.593713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zufikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.354487,
+          47.352499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winterthur Töss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.709473,
+          47.489626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thalwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.563931,
+          47.296397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weinfelden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.102918,
+          47.567533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horgen Oberdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.588757,
+          47.259307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kempten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.804832,
+          47.332324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Giesshübel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520403,
+          47.361642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freienbach SOB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.759382,
+          47.204186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rickenbach-Attikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.788985,
+          47.535303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Affoltern am Albis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445507,
+          47.275129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freienbach SBB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.757095,
+          47.207244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wetzikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.792292,
+          47.317916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sirnach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.001283,
+          47.462062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aathal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.765715,
+          47.33592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eglisau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51573,
+          47.572669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Netstal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.059443,
+          47.064726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esslingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.709786,
+          47.287892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uetikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.68104,
+          47.258178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Brunau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525822,
+          47.352785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bremgarten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.345143,
+          47.350981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rapperswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.816697,
+          47.224637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Feldbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.782644,
+          47.238947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dübendorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.623843,
+          47.400053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schwanden GL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.07729,
+          46.996869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rüti ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.854961,
+          47.260283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Tiefenbrunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561662,
+          47.350067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rietheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.277717,
+          47.600592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wohlen Oberdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.285201,
+          47.346902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bilten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.030371,
+          47.152095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Schweighof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503735,
+          47.364954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baar Lindenpark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517071,
+          47.183862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erlenbach ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.591563,
+          47.306037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waldburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.592906,
+          47.345522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rümlang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.532824,
+          47.454075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brugg AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.209288,
+          47.480652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oberrieden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.578727,
+          47.2797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bauma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.878771,
+          47.369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emmat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.70224,
+          47.292491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Selnau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.532129,
+          47.372956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nänikon-Greifensee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685666,
+          47.3697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oberrieden Dorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.577871,
+          47.27674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Altendorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.822773,
+          47.194094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wil SG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.042024,
+          47.462188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wollerau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.724908,
+          47.195607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adliswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.524049,
+          47.311837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turgi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.253545,
+          47.491655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bremgarten Isenlauf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.34138,
+          47.346009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Au ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.644305,
+          47.246955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pfäffikon ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.785709,
+          47.366804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kempraten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.81416,
+          47.238422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kollbrunn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.773982,
+          47.458388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schwerzenbach ZH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.656903,
+          47.385191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spital Zollikerberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.597645,
+          47.347382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rüti GL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.012144,
+          46.934515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuenhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.331326,
+          47.450669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zumikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.623694,
+          47.331411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522553,
+          47.195244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jestetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.573303,
+          47.654536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burghalden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.692709,
+          47.208692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Koblenz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.227008,
+          47.600255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rekingen AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.327446,
+          47.570136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uetliberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.487677,
+          47.35222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langnau-Gattikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543965,
+          47.286821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kilchberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.547817,
+          47.324628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rafz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543301,
+          47.603584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Othmarsingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.214737,
+          47.407599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muri AG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.339838,
+          47.276696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reppischhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.396282,
+          47.384695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bad Zurzach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.296406,
+          47.587765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wiesendangen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77729,
+          47.527163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rüschlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.555014,
+          47.306927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oberwinterthur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.760621,
+          47.507862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sood-Oberleimbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521504,
+          47.319426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilen bei Wollerau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.734079,
+          47.19769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nieder- und Oberurnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.062676,
+          47.122314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elgg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.863554,
+          47.498662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stein am Rhein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.854975,
+          47.655939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Islikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.853313,
+          47.549782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siebnen-Wangen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.90189,
+          47.182797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leuggelbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.047024,
+          46.975993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diesbach-Betschwanden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0243,
+          46.946313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mettmenstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.456788,
+          47.244977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Oerlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543952,
+          47.411867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glattbrugg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558871,
+          47.430514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Opfikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561861,
+          47.430244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kloten Balsberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570857,
+          47.442271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kloten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.583552,
+          47.448353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kloten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58363,
+          47.448269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wallisellen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.592239,
+          47.412427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Wipkingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.529021,
+          47.391746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steinhausen Rigiblick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.479695,
+          47.187893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich HB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.539325,
+          47.378575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Hardbrücke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517333,
+          47.385221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Altstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.489083,
+          47.391815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zürich Wiedikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.523315,
+          47.371428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dietikon Stoffelbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.398848,
+          47.393318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bergfrieden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.398838,
+          47.397366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dietikon Schöneggstrasse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.400932,
+          47.401988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dietikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.405138,
+          47.405866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glanzenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.420288,
+          47.398862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schlieren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.446947,
+          47.399376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Killwangen-Spreitenbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.354324,
+          47.433584
+        ]
+      }
+    }
+  ]
+}

@@ -7,9 +7,16 @@ body {
     height: 50px;
 }
 
+.info {
+  margin: 5px 0px;
+}
+
+hr {
+  margin: 5px 0px;
+}
+
 #map_canvas_wrapper {
     margin: 2px;
-    margin-bottom: 10px;
 }
 
 #map_canvas {
@@ -37,18 +44,11 @@ body {
 
 #social {
     height: 30px;
-    width: 300px;
-    margin: 0 auto;
-}
-
-#social > div {
-    width: 90px;
     overflow: hidden;
-    float: left;
 }
 
 #service_lines {
-    margin-top: 10px;
+  margin: 2px 80px;
 }
 
 #service_lines .label {
@@ -120,19 +120,12 @@ body.mobile {
     padding-top: 5px;
 }
 
-body.mobile #github_badge, body.mobile .navbar, body.mobile #social, body.mobile h2 {
+body.mobile #github_badge, body.mobile .navbar, body.mobile #social, body.mobile h2, body.mobile .info {
     display: none;
 }
 
-body.mobile h2 {
-    font-size: 1.2em;
-    line-height: 1em;
-}
-
-body.mobile h4 {
-    font-size: 0.8em;
-    line-height: 1em;
-    margin: 2px 0px;
+body.mobile #service_lines {
+  margin: 5px;
 }
 
 body.mobile #timeline_wrapper {

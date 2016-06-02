@@ -26,7 +26,7 @@
       "name": "S 5",
       "color": "#FFFFFF",
       "bg_color": "#64A8CA",
-      "stations": "Niederweningen - Rafz - Oberglatt - Zürich HB - Uster - Wetzikon - Rapperswil - Pfäffikon SZ"
+      "stations": "Zug - Affoltern Am Albis - Zürich HB - Uster - Wetzikon - Rapperswil - Pfäffikon SZ"
     },
     {
       "id": "s6",
@@ -54,7 +54,7 @@
       "name": "S 9",
       "color": "#FFFFFF",
       "bg_color": "#069A5D",
-      "stations": "Zug - Affoltern am Albis - Zürich HB - Uster"
+      "stations": "Schaffhausen - Bülach - Zürich HB - Uster"
     },
     {
       "id": "s10",
@@ -62,6 +62,13 @@
       "color": "#000000",
       "bg_color": "#FBCF02",
       "stations": "Zürich HB - Uetliberg"
+    },
+    {
+      "id": "s11",
+      "name": "S 11",
+      "color": "#FFFFFF",
+      "bg_color": "#B8A1CE",
+      "stations": "Zürich Hardbrücke - Winterthur"
     },
     {
       "id": "s12",
@@ -82,21 +89,21 @@
       "name": "S 14",
       "color": "#FFFFFF",
       "bg_color": "#AC6547",
-      "stations": "Zürich HB - Oerlikon - Uster - Wetzikon - Hinwil"
+      "stations": "Affoltern am Albis - Zürich HB - Oerlikon - Uster - Wetzikon - Hinwil"
     },
     {
       "id": "s15",
       "name": "S 15",
       "color": "#FFFFFF",
-      "bg_color": "#BB9977",
-      "stations": "Affoltern am Albis - Zürich HB - Uster - Rapperswil"
+      "bg_color": "#CEB08D",
+      "stations": "Niederweningen - Oberglatt - Zürich Oerlikon - Zürich HB - Uster - Rapperswil"
     },
     {
       "id": "s16",
       "name": "S 16",
       "color": "#FFFFFF",
       "bg_color": "#4FAD82",
-      "stations": "Thayngen - Schaffhausen - Winterthur - Zürich Airport - Zürich HB - Herrliberg - Feldmeilen - Meilen"
+      "stations": "Zürich Airport - Zürich HB - Herrliberg - Feldmeilen - Meilen"
     },
     {
       "id": "s17",
@@ -113,11 +120,18 @@
       "stations": "Zürich Stadelhofen - Forch - Esslingen"
     },
     {
+      "id": "s19",
+      "name": "S 19",
+      "color": "#FFFFFF",
+      "bg_color": "#EF7C00",
+      "stations": "Koblenz - Baden - Zürich HB - Zürich Oerlikon - Effretikon - Pfäffikon ZH"
+    },
+    {
       "id": "s21",
       "name": "S 21",
       "color": "#FFFFFF",
-      "bg_color": "#BA8C53",
-      "stations": "Zürich HB - Thalwil - Zug"
+      "bg_color": "#A2CBEE",
+      "stations": "Regensdorf-Watt - Zürich HB"
     },
     {
       "id": "s22",
@@ -127,17 +141,24 @@
       "stations": "Bülach - Schaffhausen - Singen (Hohentwiel)"
     },
     {
+      "id": "s23",
+      "name": "S 23",
+      "color": "#FFFFFF",
+      "bg_color": "#A0C753",
+      "stations": "Zürich HB - Winterthur"
+    },
+    {
       "id": "s24",
       "name": "S 24",
       "color": "#FFFFFF",
-      "bg_color": "#BA8C53",
-      "stations": "Zürich Oerlikon - Zürich HB - Thalwil - Zug"
+      "bg_color": "#B48C5C",
+      "stations": "Thayngen - Zürich Flughafen - Zürich Wipkingen - Zürich HB - Thalwil - Zug"
     },
     {
       "id": "s25",
       "name": "S 25",
       "color": "#FFFFFF",
-      "bg_color": "#0088AD",
+      "bg_color": "#B7037F",
       "stations": "Zürich HB - Pfäffikon SZ - Ziegelbrücke - Linthal"
     },
     {
@@ -190,6 +211,13 @@
       "stations": "Winterthur - Bülach - Bad Zurzach - Waldshut"
     },
     {
+      "id": "s42",
+      "name": "S 42",
+      "color": "#FFFFFF",
+      "bg_color": "#996A2F",
+      "stations": "Muri AG - Dietikon - Zürich HB"
+    },
+    {
       "id": "s43",
       "name": "S 43",
       "color": "#FFFFFF",
@@ -221,6 +249,12 @@
       "title": "2014",
       "description": "Weinberg Tunnel",
       "link": "http://en.wikipedia.org/wiki/Weinberg_Tunnel"
+    },
+    {
+      "id": "2015",
+      "title": "2015",
+      "description": "Kohlendreieck Bridge",
+      "link": "https://de.wikipedia.org/wiki/Durchmesserlinie_Altstetten%E2%80%93Z%C3%BCrich_HB%E2%80%93Oerlikon"
     }
   ]
 }

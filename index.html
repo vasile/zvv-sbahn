@@ -36,7 +36,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="https://twitter.com/zvv/status/502348371974438912" target="_blank">Data source (ZVV)</a>
+                            <a href="https://twitter.com/zvv/status/502348371974438912" target="_blank">Data Source</a>
                         </li>
                         <li>
                             <a href="https://docs.google.com/forms/d/1ZWCqfF8OvRBlMPHMc5FbL6T3zYhQ-p18B8IIwMt1sRs/viewform" target="_blank">Contact</a>
@@ -49,52 +49,51 @@
         <div class="container">
             <h2 class="text-center">Zürich S-Bahn Network Expansion</h2>
             
-            <div id="social">
-                <div>
+            <div class="row text-center" id="social">
+                <div class="col-md-5"></div>
+                <div class="col-md-1">
                     <a href="https://twitter.com/share" class="twitter-share-button" data-text="Zürich S-Bahn Network Expansion" data-lang="en">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
-                <div>
+                <div class="col-md-1">
                     <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fmaps.vasile.ch%2Fzvv-sbahn%2F&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
                 </div>
-                <div>
-                    <g:plusone size="medium"></g:plusone>
-                    <script type="text/javascript">
-                      (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                      })();
-                    </script>
-                </div>
+                <div class="col-md-5"></div>
             </div>
-            
+
+            <div class="row info text-center">
+                This application shows the Zürich S-Bahn Network evolution from 1990 to the present day. Data is gathered from <a href="http://www.zvv.ch/zvv/en/timetable/network-maps.html" target="_blank">ZVV</a> and <a href="http://en.wikipedia.org/wiki/Z%C3%BCrich_S-Bahn#Operation" target="_blank">Wikipedia</a> datasources.
+            </div>
+
             <div id="map_canvas_wrapper" class="row">
-                <div class="col-md-9">
-                    <div id="map_canvas">
-                        <div id="map_area_info" class="ol-popup hide">
-                            <a href="#" class="ol-popup-closer"></a>
-                            <div class="ol-popup-content"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="map_panel" class="col-md-3">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h4 id="event_title"></h4>
-                            <div id="timeline_wrapper" class="row">
-                                <div class="col-md-11">
-                                    <div id="timeline"></div>
-                                </div>
-                            </div>
-                            <div id="service_lines"></div>
-                        </div>
+                <div id="map_canvas">
+                    <div id="map_area_info" class="ol-popup hide">
+                        <a href="#" class="ol-popup-closer"></a>
+                        <div class="ol-popup-content"></div>
                     </div>
                 </div>
             </div>
+
+            <div class="row info text-center">
+                Select a service line below to display the route and use the slider to navigate back in time
+            </div>
+
+            <div class="row text-center">
+                <div id="service_lines">Loading ...</div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-5"></div>
+                <div class="col-md-2" id="timeline_wrapper">
+                    <div id="timeline"></div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+
+            <hr/>
             
             <footer>
-                <div>This application shows the Zürich S-Bahn Network evolution from 1990 to present day. The data is gathered from <a href="http://www.zvv.ch/en/routes-and-zones/zvv-network-plan.html" target="_blank">ZVV</a> and <a href="http://en.wikipedia.org/wiki/Z%C3%BCrich_S-Bahn#Operation" target="_blank">Wikipedia</a> datasources.<br/>Created by <a href="http://www.vasile.ch">Vasile Coțovanu</a>, the project it's powered by <a href="http://api3.geo.admin.ch/" target="_blank">GeoAdmin API</a>, <a href="http://getbootstrap.com/" target="_blank">Boostrap 3.0</a> and open-sourced on <a href="https://github.com/vasile/zvv-sbahn" target="_blank">Github</a>.</div>
+                This application is designed and programmed by <a href="http://www.vasile.ch">Vasile Coțovanu</a> and powered by <a href="http://api3.geo.admin.ch/" target="_blank">GeoAdmin API</a>, <a href="http://getbootstrap.com/" target="_blank">Boostrap 3.0</a> and of course open-sourced on <a href="https://github.com/vasile/zvv-sbahn" target="_blank">Github</a>.
             </footer>
         </div>
         

@@ -32,13 +32,40 @@ $(document).ready(function() {
         return styles;
     }
     var vector_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
         style: vector_layer_style
     });
     layers.push(vector_layer);
     
+    function service_highlight_vector_layer_style(feature, resolution) {
+        var styles = [];
+        $.each(feature.get('feature_service_lines'), function(k, row){
+            if ((user_selected.service_line_id) && (row.service_line_id === user_selected.service_line_id) && (row.event_id === user_selected.event_id)) {
+                var style = new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'red',
+                        width: 3
+                    })
+                });
+                styles.push(style);
+            }        
+        });
+        return styles;
+    }
+    var service_highlight_vector_layer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
+        style: service_highlight_vector_layer_style
+    });
+    layers.push(service_highlight_vector_layer);
+    
     var stations_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
+        source: new ol.source.Vector({
+            format: new ol.format.GeoJSON()
+        }),
         style: new ol.style.Style({
             image: new ol.style.Circle({
                 radius: 3,
@@ -56,27 +83,6 @@ $(document).ready(function() {
     stations_layer.set('id', 'stations');
     layers.push(stations_layer);
     
-    function service_highlight_vector_layer_style(feature, resolution) {
-        var styles = [];
-        $.each(feature.get('feature_service_lines'), function(k, row){
-            if ((user_selected.service_line_id) && (row.service_line_id === user_selected.service_line_id) && (row.event_id === user_selected.event_id)) {
-                var style = new ol.style.Style({
-                    stroke: new ol.style.Stroke({
-                        color: 'red',
-                        width: 2
-                    })
-                });
-                styles.push(style);
-            }        
-        });
-        return styles;
-    }
-    var service_highlight_vector_layer = new ol.layer.Vector({
-        source: new ol.source.GeoJSON(),
-        style: service_highlight_vector_layer_style
-    });
-    layers.push(service_highlight_vector_layer);
-    
     var area_info = new ol.Overlay({
         element: $('#map_area_info')[0]
     });
@@ -87,11 +93,12 @@ $(document).ready(function() {
         layers: layers,
         overlays: [area_info]
     });
+    var start_zoom = ua_is_mobile ? 12 : 13;
     var map_view = new ol.View2D({
         minZoom: 9,
-        maxZoom: 14,
-        zoom: 10,
-        center: ol.proj.transform([8.71, 47.47], 'EPSG:4326', 'EPSG:21781')
+        maxZoom: 15,
+        zoom: start_zoom,
+        center: ol.proj.transform([8.55, 47.39], 'EPSG:4326', 'EPSG:21781')
     });
     map.setView(map_view);
     
@@ -142,13 +149,24 @@ $(document).ready(function() {
                         vector_layer.getSource().addFeature(feature);
                         service_highlight_vector_layer.getSource().addFeature(feature);
                     }
-                    
-                    if (geojson_feature.geometry.type == 'Point') {
-                        var point = ol.proj.transform(geojson_feature.geometry.coordinates, 'EPSG:4326', 'EPSG:21781');
-                        feature = new ol.Feature(new ol.geom.Point(point));
-                        feature.set('name', geojson_feature.properties.name);
-                        stations_layer.getSource().addFeature(feature);
+                });
+            },
+            async: false
+        });
+
+        $.ajax({
+            dataType: 'json',
+            url: 'data/stations.geojson',
+            success: function(data) {
+                $.each(data.features, function(k, geojson_feature){
+                    if (geojson_feature.geometry.type != 'Point') {
+                        return;
                     }
+
+                    var point = ol.proj.transform(geojson_feature.geometry.coordinates, 'EPSG:4326', 'EPSG:21781');
+                    var feature = new ol.Feature(new ol.geom.Point(point));
+                    feature.set('name', geojson_feature.properties.name);
+                    stations_layer.getSource().addFeature(feature);
                 });
             },
             async: false
@@ -170,16 +188,64 @@ $(document).ready(function() {
             user_selected.service_line_id = service_line_id;
             service_highlight_vector_layer.setStyle(service_highlight_vector_layer_style);
         });
-        
+
+        $('#service_lines .service_line').click(function(ev){
+            var slider_value = parseInt($('#timeline').attr('slider-value'), 10);
+            var selected_year = data.events[slider_value].id;
+
+            var x_min = y_min = x_max = y_max = null;
+
+            var service_line_id = $(this).attr('data-id');
+            $.each(vector_layer.getSource().getFeatures(), function(k, f){
+                var keep_feature = false;
+                $.each(f.get('feature_service_lines'), function(k, line_data){
+                    if ((line_data.event_id === selected_year) && (line_data.service_line_id === service_line_id)) {
+                        keep_feature = true;
+                    }
+                });
+                if (keep_feature) {
+                    var f_extent = f.getGeometry().getExtent()
+                    if (x_min === null) {
+                        x_min = f_extent[0];
+                        y_min = f_extent[1];
+                        x_max = f_extent[2];
+                        y_max = f_extent[3];
+                    }
+
+                    if (f_extent[0] < x_min) {
+                        x_min = f_extent[0];
+                    }
+                    if (f_extent[1] < y_min) {
+                        y_min = f_extent[1];
+                    }
+                    if (f_extent[2] > x_max) {
+                        x_max = f_extent[2];
+                    }
+                    if (f_extent[3] > y_max) {
+                        y_max = f_extent[3];
+                    }
+                }
+            });
+
+            var new_extent = [x_min, y_min, x_max, y_max];
+            map.getView().fitExtent(new_extent, map.getSize());
+        });
+
         $('#service_lines').mouseover(function(ev){
             if (vector_layer.getOpacity() > 0.4) {
                 vector_layer.setOpacity(0.4);
             }
+            if (base_layer.getOpacity() > 0.25) {
+                base_layer.setOpacity(0.2);
+            }
         });
 
-        $('#map_panel').mouseout(function(ev){
+        $('#service_lines').mouseout(function(ev){
             if (vector_layer.getOpacity() < 1) {
                 vector_layer.setOpacity(1);
+            }
+            if (base_layer.getOpacity() < 0.25) {
+                base_layer.setOpacity(0.4);
             }
             
             if (user_selected.service_line_id !== null) {
@@ -194,6 +260,7 @@ $(document).ready(function() {
         });
         
         function event_update(k) {
+            $('#timeline').attr('slider-value', k);
             var event_data = data.events[k];
             $('#event_title').text(event_data.title + ': ' + event_data.description);
             
@@ -211,15 +278,17 @@ $(document).ready(function() {
             });
         }
         
+        var default_value = data.events.length - 1;
         $('#timeline').labeledslider({
-            max: data.events.length - 1,
+            max: default_value,
             tickLabels: event_labels,
             slide: function(event, ui) {
                 event_update(ui.value);
-            }
+            },
+            value: default_value
         });
         $("#timeline .ui-slider-handle").css('background', '#0087cc');
-        event_update(0);
+        event_update(default_value);
     });
     
     map.on('singleclick', function(ev) {
